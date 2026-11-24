@@ -1,0 +1,63 @@
+// Sabit yerler: müzeler, ören yerleri ve etkinlik mekanları.
+// Koordinatlar yaklaşık (prototip) — yayından önce tek tek doğrulanacak.
+// type: 'muze' | 'oren' | 'mekan'
+
+export const PLACES = [
+  // ── Müzeler (merkez) ──
+  { id: 'arkeoloji', type: 'muze', name: 'İzmir Arkeoloji Müzesi', district: 'Konak', lng: 27.1305, lat: 38.4135,
+    desc: 'Bölgedeki antik kentlerden gelen heykel, lahit ve sikke koleksiyonu.' },
+  { id: 'etnografya', type: 'muze', name: 'İzmir Etnografya Müzesi', district: 'Konak', lng: 27.1296, lat: 38.4141,
+    desc: 'Eski bir hastane binasında İzmir’in gündelik yaşamı, zanaatları ve gelenekleri.' },
+  { id: 'apikam', type: 'muze', name: 'Ahmet Piriştina Kent Arşivi ve Müzesi', short: 'APİKAM', district: 'Konak', lng: 27.1403, lat: 38.4282,
+    desc: 'Eski itfaiye binasında kentin belleği: fotoğraflar, belgeler ve dönemsel sergiler.' },
+  { id: 'tarihsanat', type: 'muze', name: 'İzmir Tarih ve Sanat Müzesi', district: 'Kültürpark', lng: 27.1452, lat: 38.4292,
+    desc: 'Kültürpark içinde heykel, seramik ve değerli eserler bölümleri.' },
+  { id: 'ataturk', type: 'muze', name: 'Atatürk Müzesi', district: 'Alsancak', lng: 27.1421, lat: 38.4373,
+    desc: 'Kordon’daki tarihi köşkte Atatürk’ün İzmir ziyaretlerinde kaldığı ev.' },
+  { id: 'resimheykel', type: 'muze', name: 'İzmir Resim ve Heykel Müzesi', district: 'Konak', lng: 27.1301, lat: 38.4183,
+    desc: 'Cumhuriyet dönemi Türk resim ve heykel koleksiyonu.' },
+  { id: 'arkas', type: 'muze', name: 'Arkas Sanat Merkezi', district: 'Alsancak', lng: 27.1431, lat: 38.4402,
+    desc: 'Kordon’da tarihi bir köşkte çağdaş ve klasik sanat sergileri.' },
+  { id: 'havagazi', type: 'muze', name: 'Tarihi Havagazı Fabrikası', district: 'Alsancak', lng: 27.1462, lat: 38.4455,
+    desc: 'Endüstri mirası yapıda kültür merkezi, sergi ve etkinlik alanları.' },
+  { id: 'efesmuze', type: 'muze', name: 'Efes Müzesi', district: 'Selçuk', lng: 27.3680, lat: 37.9483,
+    desc: 'Efes kazılarından çıkan Artemis heykelleri ve yamaç ev buluntuları.' },
+  { id: 'bergamamuze', type: 'muze', name: 'Bergama Müzesi', district: 'Bergama', lng: 27.1795, lat: 39.1205,
+    desc: 'Pergamon ve çevresindeki antik yerleşimlerin buluntuları.' },
+  { id: 'cesmekale', type: 'muze', name: 'Çeşme Kalesi ve Müzesi', district: 'Çeşme', lng: 26.3030, lat: 38.3230,
+    desc: '16. yüzyıl Osmanlı kalesi ve içindeki arkeoloji müzesi.' },
+  { id: 'birgi', type: 'muze', name: 'Birgi Çakırağa Konağı', district: 'Ödemiş', lng: 28.0640, lat: 38.2540,
+    desc: '18. yüzyıl konağı; duvar resimleriyle ünlü, müze ev.' },
+
+  // ── Ören yerleri ──
+  { id: 'agora', type: 'oren', name: 'İzmir Agorası', district: 'Konak', lng: 27.1393, lat: 38.4185,
+    desc: 'Roma dönemi Smyrna’nın kent meydanı; bazilika ve kemerli bodrum katları.' },
+  { id: 'kadifekale', type: 'oren', name: 'Kadifekale', district: 'Konak', lng: 27.1440, lat: 38.4122,
+    desc: 'Pagos tepesindeki antik kale; körfeze en güzel bakış noktalarından.' },
+  { id: 'smyrnatiyatro', type: 'oren', name: 'Smyrna Antik Tiyatrosu', district: 'Konak', lng: 27.1418, lat: 38.4148,
+    desc: 'Kadifekale yamacında kazısı süren Roma tiyatrosu.' },
+  { id: 'tepekule', type: 'oren', name: 'Eski Smyrna (Tepekule)', district: 'Bayraklı', lng: 27.1675, lat: 38.4645,
+    desc: 'İzmir’in ilk yerleşimi; Athena tapınağı kalıntıları.' },
+  { id: 'yesilova', type: 'oren', name: 'Yeşilova Höyüğü', district: 'Bornova', lng: 27.2165, lat: 38.4615,
+    desc: 'İzmir’in bilinen en eski yerleşimi, 8.500 yıllık; ziyaretçi merkezi var.' },
+  { id: 'efes', type: 'oren', name: 'Efes Antik Kenti', district: 'Selçuk', lng: 27.3410, lat: 37.9395,
+    desc: 'UNESCO Dünya Mirası; Celsus Kütüphanesi ve Büyük Tiyatro.' },
+  { id: 'artemis', type: 'oren', name: 'Artemis Tapınağı', district: 'Selçuk', lng: 27.3639, lat: 37.9497,
+    desc: 'Antik dünyanın yedi harikasından biri; bugün tek sütunu ayakta.' },
+  { id: 'stjean', type: 'oren', name: 'Ayasuluk Tepesi ve St. Jean Bazilikası', district: 'Selçuk', lng: 27.3678, lat: 37.9532,
+    desc: 'Bizans bazilikası ve Selçuk’a hâkim kale.' },
+  { id: 'bergamaakropol', type: 'oren', name: 'Bergama Akropolü', district: 'Bergama', lng: 27.1840, lat: 39.1320,
+    desc: 'UNESCO Dünya Mirası; dünyanın en dik antik tiyatrosu.' },
+  { id: 'asklepion', type: 'oren', name: 'Asklepion', district: 'Bergama', lng: 27.1650, lat: 39.1240,
+    desc: 'Antik çağın ünlü sağlık merkezi.' },
+  { id: 'teos', type: 'oren', name: 'Teos Antik Kenti', district: 'Seferihisar', lng: 26.7850, lat: 38.1770,
+    desc: 'Dionysos tapınağı ve tiyatrosuyla zeytinlikler arasında bir İon kenti.' },
+  { id: 'klazomenai', type: 'oren', name: 'Klazomenai', district: 'Urla', lng: 26.7710, lat: 38.3640,
+    desc: 'İon kenti; dünyanın bilinen en eski zeytinyağı işliklerinden biri.' },
+  { id: 'erythrai', type: 'oren', name: 'Erythrai', district: 'Çeşme · Ildırı', lng: 26.4800, lat: 38.3810,
+    desc: 'Ildırı köyünün üstünde, denize bakan antik tiyatro.' },
+  { id: 'metropolis', type: 'oren', name: 'Metropolis', district: 'Torbalı', lng: 27.3210, lat: 38.1270,
+    desc: '“Ana Tanrıça Kenti”; tiyatro, hamam ve stoa kalıntıları.' },
+]
+
+export const placeById = Object.fromEntries(PLACES.map(p => [p.id, p]))

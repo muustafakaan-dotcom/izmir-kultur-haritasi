@@ -1,0 +1,419 @@
+{
+ "v-kulturpark-ataturk-acikhava-tiyatrosu": {
+  "lat": 38.429185,
+  "lng": 27.1415549,
+  "approx": false
+ },
+ "v-kulturpark-genclik-tiyatrosu": {
+  "lat": 38.429185,
+  "lng": 27.1415549,
+  "approx": false
+ },
+ "v-kulturpark-ahsap-sahne": {
+  "lat": 38.429185,
+  "lng": 27.1415549,
+  "approx": false
+ },
+ "v-elhamra-sahnesi": {
+  "lat": 38.4179746,
+  "lng": 27.1295289,
+  "approx": false
+ },
+ "v-mustafa-necati-kultur-merkezi": {
+  "lat": 38.397759,
+  "lng": 27.112023,
+  "approx": false
+ },
+ "v-bornova-doganlar-sapel-kultur-merkezi": {
+  "lat": 38.4541611,
+  "lng": 27.25335,
+  "approx": false
+ },
+ "v-aliaga-cemevi-ve-kultur-merkezi": {
+  "lat": 38.799725,
+  "lng": 26.9789356,
+  "approx": false
+ },
+ "v-altindag-cemevi-ve-kultur-merkezi": {
+  "lat": 38.3785706,
+  "lng": 27.24029,
+  "approx": false
+ },
+ "v-bornova-cemevi-ve-kultur-merkezi": {
+  "lat": 38.4620946,
+  "lng": 27.2163964,
+  "approx": false
+ },
+ "v-cigli-cemevi-ve-kultur-merkezi": {
+  "lat": 38.495561,
+  "lng": 27.0777277,
+  "approx": false
+ },
+ "v-gultepe-cemevi-ve-kultur-merkezi": {
+  "lat": 38.4059385,
+  "lng": 27.1137586,
+  "approx": false
+ },
+ "v-selcuk-cemevi-ve-kultur-merkezi": {
+  "lat": 37.9506,
+  "lng": 27.3689,
+  "approx": true,
+  "t": 1795549065008
+ },
+ "v-hasan-ali-yucel-kutuphanesi": {
+  "lat": 38.429185,
+  "lng": 27.1415549,
+  "approx": false
+ },
+ "v-ilber-ortayli-kutuphanesi": {
+  "lat": 38.429185,
+  "lng": 27.1415549,
+  "approx": false
+ },
+ "v-sato-kutuphanesi": {
+  "lat": 38.4137785,
+  "lng": 27.1257487,
+  "approx": false
+ },
+ "v-kent-kutuphanesi": {
+  "lat": 38.4386339,
+  "lng": 27.1481153,
+  "approx": false
+ },
+ "v-fuar-izmir": {
+  "lat": 38.3472178,
+  "lng": 27.1196579,
+  "approx": false
+ },
+ "v-konak-meydani": {
+  "lat": 38.4192537,
+  "lng": 27.128469,
+  "approx": false
+ },
+ "v-cumhuriyet-meydani": {
+  "lat": 38.4290418,
+  "lng": 27.134329,
+  "approx": false
+ },
+ "v-gundogdu-meydani": {
+  "lat": 38.4357217,
+  "lng": 27.1396294,
+  "approx": false
+ },
+ "v-inciralti-demokrasi-meydani": {
+  "lat": 38.4086908,
+  "lng": 27.0351545,
+  "approx": false
+ },
+ "v-bostanli-seyir-terasi": {
+  "lat": 38.4686035,
+  "lng": 27.0670453,
+  "approx": false
+ },
+ "v-kibris-sehitleri-caddesi": {
+  "lat": 38.4372422,
+  "lng": 27.143217,
+  "approx": false
+ },
+ "v-deniz-baykal-kultur-merkezi": {
+  "lat": 38.4834136,
+  "lng": 27.1127461,
+  "approx": false
+ },
+ "v-selahattin-akcicek-kultur-merkezi": {
+  "lat": 38.4108375,
+  "lng": 27.1279377,
+  "approx": false
+ },
+ "v-turkan-saylan-kultur-merkezi": {
+  "lat": 38.4372422,
+  "lng": 27.143217,
+  "approx": false
+ },
+ "v-guzelyali-nazim-hikmet-kultur-merkezi": {
+  "lat": 38.4182725,
+  "lng": 27.1301746,
+  "approx": false
+ },
+ "v-guzelbahce-ataturk-kultur-merkezi": {
+  "lat": 38.3756606,
+  "lng": 26.8921806,
+  "approx": false
+ },
+ "v-ugur-mumcu-kultur-ve-sanat-merkezi": {
+  "lat": 38.4620946,
+  "lng": 27.2163964,
+  "approx": false
+ },
+ "v-bergama-kultur-merkezi": {
+  "lat": 39.1140371,
+  "lng": 27.1762018,
+  "approx": false
+ },
+ "v-cakabey-kultur-merkezi": {
+  "lat": 38.3236,
+  "lng": 26.3031,
+  "approx": true,
+  "t": 1795549118394
+ },
+ "v-reha-midilli-kultur-merkezi": {
+  "lat": 38.67,
+  "lng": 26.7569,
+  "approx": true,
+  "t": 1795549123811
+ },
+ "v-dikili-belediyesi-mustafa-kemal-ataturk-kultur-merkezi": {
+  "lat": 39.0717,
+  "lng": 26.8886,
+  "approx": true,
+  "t": 1795549129244
+ },
+ "v-narlidere-belediyesi-ataturk-kultur-merkezi": {
+  "lat": 38.3956924,
+  "lng": 26.9931032,
+  "approx": false
+ },
+ "v-fransiz-kultur-merkezi": {
+  "lat": 38.4352912,
+  "lng": 27.1407391,
+  "approx": false
+ },
+ "v-dokuz-eylul-universitesi-sabanci-kultur-sarayi": {
+  "lat": 38.4069322,
+  "lng": 27.1074726,
+  "approx": false
+ },
+ "v-ege-universitesi-ataturk-kultur-merkezi": {
+  "lat": 38.4069322,
+  "lng": 27.1074726,
+  "approx": false
+ },
+ "v-suat-taser-sanat-merkezi": {
+  "lat": 38.4578357,
+  "lng": 27.0965606,
+  "approx": false
+ },
+ "v-bornova-kultur-ve-sanat-merkezi": {
+  "lat": 38.4620946,
+  "lng": 27.2163964,
+  "approx": false
+ },
+ "v-asklepion-antik-tiyatrosu": {
+  "lat": 39.1177512,
+  "lng": 27.1761472,
+  "approx": false
+ },
+ "v-cesme-acikhava-tiyatrosu": {
+  "lat": 38.3242769,
+  "lng": 26.3126797,
+  "approx": false
+ },
+ "v-ayfer-feray-acik-hava-tiyatrosu": {
+  "lat": 38.4628404,
+  "lng": 27.2158003,
+  "approx": false
+ },
+ "v-gumuldur-amfi-tiyatro": {
+  "lat": 38.2525,
+  "lng": 27.1339,
+  "approx": true,
+  "t": 1795549147929
+ },
+ "v-beskapilar-kalesi-acik-hava-tiyatrosu": {
+  "lat": 38.67,
+  "lng": 26.7569,
+  "approx": true,
+  "t": 1795549152950
+ },
+ "v-cesme-cumhuriyet-meydani": {
+  "lat": 38.3241149,
+  "lng": 26.3024769,
+  "approx": false
+ },
+ "v-bayetav-sanat": {
+  "lat": 38.4526146,
+  "lng": 27.3096215,
+  "approx": false
+ },
+ "v-urladam": {
+  "lat": 38.3190386,
+  "lng": 26.7228833,
+  "approx": false
+ },
+ "v-sahne-tozu-tiyatrosu": {
+  "lat": 38.4162393,
+  "lng": 27.1285009,
+  "approx": false
+ },
+ "v-bergama-ayaskent-meydani": {
+  "lat": 39.1864699,
+  "lng": 27.3331034,
+  "approx": false
+ },
+ "v-saat-kulesi-onu": {
+  "lat": 38.4236208,
+  "lng": 27.1435593,
+  "approx": false
+ },
+ "v-bostanli-suat-taser-salonu": {
+  "lat": 38.4548623,
+  "lng": 27.097258,
+  "approx": false
+ },
+ "v-sahne-tozu-tiyatrosu-haldun-dormen-sahnesi": {
+  "lat": 38.4237721,
+  "lng": 27.132429,
+  "approx": true
+ },
+ "v-karsiyaka-belediyesi-hikmet-simsek-sanat-merkezi": {
+  "lat": 38.4543213,
+  "lng": 27.0997317,
+  "approx": false
+ },
+ "v-izmir-konak-ege-univ-ataturk-kultur-merkezi-tiyatro-salonu": {
+  "lat": 38.4155837,
+  "lng": 27.1259601,
+  "approx": false
+ },
+ "v-the-factory-psm": {
+  "lat": 38.2835304,
+  "lng": 26.3759394,
+  "approx": true
+ },
+ "v-nazim-hikmet-kultur-merkezi-izmir": {
+  "lat": 38.4182725,
+  "lng": 27.1301746,
+  "approx": false
+ },
+ "v-konak-nazim-hikmet-kultur-merkezi": {
+  "lat": 38.4182725,
+  "lng": 27.1301746,
+  "approx": false
+ },
+ "v-izmir-performance-hall": {
+  "lat": 38.4697,
+  "lng": 27.2211,
+  "approx": true,
+  "t": 1795549192163
+ },
+ "v-babil-bira-bahcesi": {
+  "lat": 38.4019655,
+  "lng": 27.4540181,
+  "approx": true
+ },
+ "v-urla-hakan-ceken-kultur-merkezi": {
+  "lat": 38.3290428,
+  "lng": 26.7670326,
+  "approx": false
+ },
+ "v-izmir-konak-ege-universitesi-akm-yunus-emre-salonu": {
+  "lat": 38.4155837,
+  "lng": 27.1259601,
+  "approx": false
+ },
+ "v-kemeralti-nazim-hikmet-kultur-merkezi": {
+  "lat": 38.4182725,
+  "lng": 27.1301746,
+  "approx": false
+ },
+ "v-dt-urla-akm-sahnesi": {
+  "lat": 38.3177659,
+  "lng": 26.7462094,
+  "approx": false
+ },
+ "v-cliff-venue": {
+  "lat": 38.4697,
+  "lng": 27.2211,
+  "approx": true,
+  "t": 1795549208922
+ },
+ "v-a-adnan-saygun-akm-salonu-ege-universitesi": {
+  "lat": 38.4155837,
+  "lng": 27.1259601,
+  "approx": false
+ },
+ "v-bademler-sanat-koyu": {
+  "lat": 38.3226,
+  "lng": 26.7647,
+  "approx": true,
+  "t": 1795549215901
+ },
+ "v-avlu-urla": {
+  "lat": 38.3190386,
+  "lng": 26.7228833,
+  "approx": false
+ },
+ "v-soldout-performance-hall": {
+  "lat": 38.474493,
+  "lng": 27.0755035,
+  "approx": false
+ },
+ "v-tepekule-kongre-ve-sergi-merkezi-anadolu-salonu": {
+  "lat": 38.4622,
+  "lng": 27.1636,
+  "approx": true,
+  "t": 1795549228759
+ },
+ "v-ahmet-adnan-saygun-sanat-merkezi": {
+  "lat": 38.4006817,
+  "lng": 27.0778399,
+  "approx": false
+ },
+ "v-canopy-by-hilton-izmir-bomonti": {
+  "lat": 38.4346143,
+  "lng": 27.1639628,
+  "approx": true
+ },
+ "v-bksm-rakim-elkutlu-salonu": {
+  "lat": 38.4675937,
+  "lng": 27.2185438,
+  "approx": false
+ },
+ "v-skaffpsm": {
+  "lat": 38.4192537,
+  "lng": 27.128469,
+  "approx": false
+ },
+ "v-tepekule-kongre-ve-kultur-merkezi": {
+  "lat": 38.4587055,
+  "lng": 27.1914393,
+  "approx": false
+ },
+ "v-balcova-termal-otel": {
+  "lat": 38.3881798,
+  "lng": 27.0346968,
+  "approx": false
+ },
+ "v-sosyal-sahne-bornova": {
+  "lat": 38.4001545,
+  "lng": 27.2343993,
+  "approx": false
+ },
+ "v-manje-sahne": {
+  "lat": 38.4564435,
+  "lng": 27.09786,
+  "approx": false
+ },
+ "v-sardunya-alsancak": {
+  "lat": 38.4372521,
+  "lng": 27.1428767,
+  "approx": false
+ },
+ "v-pub-manje": {
+  "lat": 38.4351021,
+  "lng": 27.1398916,
+  "approx": true
+ },
+ "v-maske-sanat-tiyatrosu": {
+  "lat": 38.4697,
+  "lng": 27.2211,
+  "approx": true,
+  "t": 1795549265282
+ },
+ "v-izmir-parc-ceremonie": {
+  "lat": 38.3708,
+  "lng": 26.8903,
+  "approx": true,
+  "t": 1795549270017
+ }
+}

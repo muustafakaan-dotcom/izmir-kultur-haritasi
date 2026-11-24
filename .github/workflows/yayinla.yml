@@ -1,0 +1,61 @@
+name: Etkinlikleri topla ve yayınla
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 */4 * * *'   # 4 saatte bir (UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Koordinat önbelleği çalıştırmalar arasında saklanır (adres aramalarını tekrarlamamak için)
+      - uses: actions/cache@v4
+        with:
+          path: collector/geo-cache.json
+          key: geo-${{ github.run_id }}
+          restore-keys: geo-
+
+      - name: Etkinlikleri topla
+        # Toplama başarısız olursa depodaki son events.json ile devam edilir; site boş kalmaz
+        run: npm run collect || echo "::warning::Toplama başarısız, önceki veri kullanılıyor"
+
+      - name: Siteyi derle
+        run: npm run build
+        env:
+          BASE: /${{ github.event.repository.name }}/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
