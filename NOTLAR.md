@@ -31,3 +31,9 @@ Geri sayım ve hatırlatma (Takvimim).
 - `.pin`'e `position` verme (MapLibre'nin absolute'unu bozar); gizlemek için `visibility` (opacity'yi MapLibre ezer).
 - Akıcılık: panelde/pinlerde `backdrop-filter` YOK (WebGL üstünde her karede yeniden hesaplanıyordu); pixelRatio ≤ 2; DEM maxzoom 12; binalar z14+;
   zoom sınıfı sadece eşik geçişinde değişiyor; liste 60'arlı parça parça çiziliyor.
+
+## Yayın (24.11.2026)
+- Canlı: https://muustafakaan-dotcom.github.io/izmir-kultur-haritasi/
+- Depo: https://github.com/muustafakaan-dotcom/izmir-kultur-haritasi (herkese açık — ücretsiz Pages için gerekli)
+- `.github/workflows/yayinla.yml`: main'e her push'ta ve 4 saatte bir → `npm run collect` + build + Pages. Elle: `gh workflow run yayinla.yml`.
+- Toplama çökerse depodaki son `public/data/events.json` ile yayınlanır (10'dan az etkinlik gelirse dosya yazılmaz).
